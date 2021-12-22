@@ -179,7 +179,7 @@ La France a très vite cherché à s’inscrire dans la dynamique de l'open data
 
 ### .red[L'Open Data Index] de l'Open Knowledge Foundation
 
-**La France se classe ainsi quatrième** selon le dernier classement (2015) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
+**La France se classe aussi quatrième** du dernier classement (2015) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
 
 ![Open Data Index de l'Open Knowledge Foundation](./img/odi.png)
 

@@ -256,12 +256,9 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 ### .red[1789] L'article 15 de la Déclaration des Droits de l'Homme et du Citoyen
 
-La première brique du droit d'accès aux documents administratifs est posée dès la Déclaration des Droits de l'Homme est du Citoyen avec larticle 15 : "La société a le droit de demander  compte à tout agent public de son administration".
+La première brique du droit d'accès aux documents administratifs est posée dès la Déclaration des Droits de l'Homme est du Citoyen avec l'article 15.Il s'agit de .red[réduire les asymétries d'information] en accédant au matériau brut de l'information et du savoir
 
-Il s'agit de réduire les asymétries d'information en accédant au matériau brut de l'information et du savoir
-
-.reduite[
-![](img/art15.png)
+.reduite[.center[![](img/art15.png)]]
 
 ---
 

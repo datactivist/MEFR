@@ -433,7 +433,7 @@ class: inverse, middle
 
 # .red[Le programme] de votre formation
 
-Retrouvons-nous le 18 Janvier 2022 pour un temps de formation pratique sur **Les fondamentaux de l’Open Data avant d’ouvrir les données sur data.economie.gouv.fr**
+Retrouvons-nous le 15 Février 2022 pour un temps de formation pratique sur **Les fondamentaux de l’Open Data avant d’ouvrir les données sur data.economie.gouv.fr**
 
 * Les enjeux de l'ouverture des données publiques 
 * Imaginer l'usage des données avec data.economie.gouv.fr

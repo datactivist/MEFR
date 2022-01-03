@@ -180,11 +180,11 @@ timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 
 La France a très vite cherché à s’inscrire dans la dynamique de l'open data, non sans succès en termes de reconnaissance internationale : 
 
-** [L'Open Data Maturity Report](https://data.europa.eu/fr/impact-studies/open-data-maturity)** de la Commission Européenne a placé en 2021 **la France à la première place** devant l'Irlande et l'Espagne.
-
-** La France est également classée 4e dans l’[Open Data Index](https://index.okfn.org/place/) établi par l’Open Knowledge Foundation et elle a obtenu une note de 85,13 sur 100 en 2016 au [baromètre international de l'Open Data](https://index.okfn.org/place/).
-
+** [L'Open Data Maturity Report](https://data.europa.eu/fr/impact-studies/open-data-maturity) de la Commission Européenne a placé en 2021 la France à la première place devant l'Irlande et l'Espagne.**
 ![open data maturity report](./img/odmr.png)
+
+La France est également classée 4e dans l’[Open Data Index](https://index.okfn.org/place/) établi par l’Open Knowledge Foundation et elle a obtenu une note de 85,13 sur 100 en 2016 au [baromètre international de l'Open Data](https://index.okfn.org/place/).
+
 ---
 class: inverse, center, middle
 
@@ -228,11 +228,11 @@ Trois grandes étapes caractérisent en France la **construction d’un droit de
 ```{r echo=FALSE}
 library(timevis)
 data <- data.frame(
-  id      = 1:8,
-  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique", "La circulaire du 27/04/2021"),
-  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07","2021-04-27")
+  id      = 1:7,
+  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique"),
+  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07")
 )
-timevis(data, loadDependencies = FALSE, width = "715px", height = "420px")
+timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
 ```
 
 ---

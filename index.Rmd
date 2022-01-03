@@ -119,9 +119,18 @@ class: inverse, center, middle
 # 1. L'histoire de l'Open Data dans le monde
 
 ---
-class: center, middle
 
-## Quelques dates jalon dans .red[l'histoire mondiale de l'open data]
+### Frise chronologique de l'évolution du .red[cadre législatif] français
+
+```{r echo=FALSE}
+library(timevis)
+data <- data.frame(
+  id      = 1:5,
+  content = c("Open Definition", "La rencontre de Sebastopol", "L'appel de Tim Berne-Lee", "Charte du G8", "Charte Internationale"),
+  start   = c("2005-11-10", "2007-10-22", "2009-02-04", "2013-06-18", "2015-05-29")
+)
+timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
+```
 
 ---
 
@@ -149,7 +158,7 @@ class: center, middle
 
 ---
 
-### 2008 : Tim Berners-Lee ["Des données brutes maintenant !"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
+### 2009 : Tim Berners-Lee ["Des données brutes maintenant !"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
 
 .center[.reduite[![](https://datactivist.coop/aaf/img/ted.png)]]
@@ -173,37 +182,9 @@ La France a très vite cherché à s’inscrire dans la dynamique de l'open data
 
 ** [L'Open Data Maturity Report](https://data.europa.eu/fr/impact-studies/open-data-maturity)** de la Commission Européenne a placé en 2021 **la France à la première place** devant l'Irlande et l'Espagne.
 
+** La France est également classée 4e dans l’[Open Data Index](https://index.okfn.org/place/) établi par l’Open Knowledge Foundation et elle a obtenu une note de 85,13 sur 100 en 2016 au [baromètre international de l'Open Data](https://index.okfn.org/place/).
+
 ![open data maturity report](./img/odmr.png)
-
----
-
-### .red[L'Open Data Index] de l'Open Knowledge Foundation
-
-**La France se classe aussi quatrième** du dernier classement (2015) de l’Open Data Index établi par l’Open Knowledge Foundation, derrière Taïwan, l’Australie et la Grande-Bretagne.
-
-![Open Data Index de l'Open Knowledge Foundation](./img/odi.png)
-
----
-
-### .red[Le baromètre international] de l'open data
-
-**[Le baromètre international de l'Open Data](https://index.okfn.org/place/)** est un outil d'évaluation pays par pays de la façon dont les gouvernements publient et utilisent des données ouvertes pour la gestion de l'Etat, l'innovation et l'impact social. **La France y obtient la note de 85,13 sur 100 en 2016.**
-
-![baromètre international de l'Open Data](./img/odb.png)
-
----
-
-### Conclusion : des .red[principes et une définition] qui se normalisent
-
-* **.red[Une première définition du savoir ouvert] avec l'Open Definition** : "Ouvert signifie que tout le monde peut librement accéder, utiliser, modifier et partager ( *des données ou informations* ) dans n'importe quel but, sous réserve d'exigences qui en préservent la provenance et l'ouverture."
-
-* **Des principes appropriables par les gouvernements** : le travail du G8 en 2013 et plus tard de la Charte Internationale de l'Open Data rend les principes intégrables par les gouvernements.  
-
-
-> Les données ouvertes deviennent des données auxquelles l’accès est totalement public et libre de droit, au même titre que l’exploitation et la réutilisation.
-
-> **Sur ces bases, la France déploie sa politique nationale de données ouvertes**
-
 ---
 class: inverse, center, middle
 
@@ -247,11 +228,11 @@ Trois grandes étapes caractérisent en France la **construction d’un droit de
 ```{r echo=FALSE}
 library(timevis)
 data <- data.frame(
-  id      = 1:7,
-  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique"),
-  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07")
+  id      = 1:8,
+  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique", "La circulaire du 27/04/2021"),
+  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07","2021-04-27")
 )
-timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
+timevis(data, loadDependencies = FALSE, width = "715px", height = "420px")
 ```
 
 ---
@@ -428,12 +409,58 @@ La mise en ligne de données à caractère personnel sans anonymisation n'est pe
 Hors de ces cas, il faut .red[**[anonymiser les données](https://github.com/SGMAP-AGD/anonymisation/wiki/Guide-de-l'anonymisation)**] : elles ne doivent plus se référer à une personne réelle (exit les noms, identifiants…) et ne doivent plus être spécifiques à un individu mais communes à un ensemble de personnes. L’indexation de ces données par un moteur de recherche externe est proscrite.
 
 ---
+### L'ouverture des .red[données d'intérêt général]
+
+La loi définit comme .red[DIG] "les données de nature privée mais dont la publication peut se justifier en raison de leur intérêt pour améliorer les politiques publiques".
+
+Sont notamment concernées :
+* les données issues de délégation de service public
+* les données essentielles des conventions de subvention
+* les données de la statistique publique : certaines bases de données des entreprises pour les enquêtes de l'INSEE
+* les données de la recherche
+
+---
+### La .red[circulaire du 27 Avril 2021]
+
+Elle fait suite au rapport du député Eric Bothorel sur la politique publique de la donnée remis au premier ministre Jean Castex en Décembre 2020.
+
+Véritable coup d'accélérateur :
+* Elle rappelle le cadre juridique favorable à l'ouverture des données
+* Elle demande aux différents ministère de nommer un administration ministériel des données
+* Elle fait de l'ouverture des données un objectif pour les directeurs d'administration centrale et services déconcentrés.
+* Elle demande la nomination d'un référent données, algorithmes et codes sources auprès des préfets de région.
+
+---
+### Une .red[feuille de route] de publication des jeux de données et des codes sources
+
+Le Ministèrede la Transformation Publique publie une feuille de route avec les jeux de données et les codes sources qui seront publiés. La date de publication prévue y est indiquée.
+
+L'ouverture des données et codes source peut être suivie sur [ouverture.data.gouv.fr](https://ouverture.data.gouv.fr/)
+On peut y voir que le MEFR respecte ses engagements.
+
+---
+### L'état des lieu de .red[l'ouverture des données du MEFR]
+
+* Le MEFR est le premier ministère à lancer sa feuille de route data avec un déploiement dès 2020.
+* La feuille de route comprend 25 actions planifiées entre 2020 et 2022 (dont 8 se dérouleront en continue).
+
+![Avancement de la feuille de route du MEFR](./img/fdr_mefr.png)
+
+---
+### Le .red[BercyHub] à l'animation de la politique open data du MEFR 
+
+* enrichissement et valorisation des données via la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/)
+* pilotage du réseau des correspondants open data
+* événements d'acculturation
+* identification de nouvelles données d'intérêt
+
+---
 
 class: inverse, middle
 
 # .red[Le programme] de votre formation
 
-Retrouvons-nous le 15 Février 2022 pour un temps de formation pratique sur **Les fondamentaux de l’Open Data avant d’ouvrir les données sur data.economie.gouv.fr**
+Retrouvons-nous pour un temps de formation pratique sur **Les fondamentaux de l’Open Data avant d’ouvrir les données sur data.economie.gouv.fr**
 
 * Les enjeux de l'ouverture des données publiques 
 * Imaginer l'usage des données avec data.economie.gouv.fr

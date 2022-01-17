@@ -452,7 +452,7 @@ Consultez la [feuille de route du MEFR](https://www.data.gouv.fr/fr/datasets/r/5
 
 * publication, enrichissement et valorisation des données via la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/)
 * animation du réseau des correspondants open data pour accompagner les DG métiers dans l’ouverture de leurs données
-* organisation d’événements d’acculturation : cycle de formation, rdv participatifs avec la communauté (Non Conférence édition 2020 et 2021)
+* organisation d’événements d’acculturation : cycle de formation, RDV participatifs avec la communauté (Non Conférence éditions 2020 et 2021)
 * identification de nouvelles données d'intérêt
 .center[
 <img src="./img/bilan_dataeconomie.png" height="250"/>

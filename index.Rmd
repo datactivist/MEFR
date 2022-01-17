@@ -455,6 +455,8 @@ Consultez la [feuille de route du MEFR](https://www.data.gouv.fr/fr/datasets/r/5
 * organisation d’évènements d’acculturation : cycle de formation open data, rendez-vous participatifs réunisssant la communauté open data du MEFR comme la Non Conférence édition 2020 et 2021
 * identification de nouvelles données d'intérêt
 
+![Les chiffres clés de data.economie.gouv.fr, la plate-forme open data de Bercy](./img/bilan_dataeconomie.png)
+
 ---
 
 class: inverse, middle

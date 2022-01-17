@@ -1,7 +1,7 @@
 ---
 title: "Les fondamentaux de l’Open Data avant d’ouvrir les données sur data.economie.gouv.fr"
 subtitle: "L'Histoire de l'open data"
-author: "Datactivist"
+author: "Datactivist pour le MEFR"
 date: "2022"
 output:
   SlidesDatactivist::moon_reader:
@@ -426,32 +426,33 @@ Elle fait suite au rapport du député Eric Bothorel sur la politique publique d
 
 Véritable coup d'accélérateur :
 * Elle rappelle le cadre juridique favorable à l'ouverture des données
-* Elle demande aux différents ministère de nommer un administration ministériel des données
+* Elle demande aux différents ministères de nommer un administrateur ministériel des données
 * Elle fait de l'ouverture des données un objectif pour les directeurs d'administration centrale et services déconcentrés.
 * Elle demande la nomination d'un référent données, algorithmes et codes sources auprès des préfets de région.
 
 ---
 ### Une .red[feuille de route] de publication des jeux de données et des codes sources
 
-Le Ministèrede la Transformation Publique publie une feuille de route avec les jeux de données et les codes sources qui seront publiés. La date de publication prévue y est indiquée.
+La DINUM (Direction Interministérielle du Numérique) publie l’ensemble des jeux de données et codes sources ouverts des ministères et liste ainsi les engagements d'ouverture à fort impact en application de l’engagement 6 du CITP de février 2021. 
+L’ouverture des jeux de données et codes sources fait l’objet d’un suivi lors des CITP (comité interministériel de la transformation publique) qui se tient 2 à 3 fois par an.
 
-L'ouverture des données et codes source peut être suivie sur [ouverture.data.gouv.fr](https://ouverture.data.gouv.fr/)
+L'ouverture des données et codes source peut être suivie sur [ouverture.data.gouv.fr](https://ouverture.data.gouv.fr/).
 On peut y voir que le MEFR respecte ses engagements.
 
 ---
 ### L'état des lieu de .red[l'ouverture des données du MEFR]
 
 * Le MEFR est le premier ministère à lancer sa feuille de route data avec un déploiement dès 2020.
-* La feuille de route comprend 25 actions planifiées entre 2020 et 2022 (dont 8 se dérouleront en continue).
+* La feuille de route comprend 25 actions planifiées entre 2020 et 2022 qui s’articulent autour de 3 axes ; capital humain, architecture et gouvernance. 
 
-![Avancement de la feuille de route du MEFR](./img/fdr_mefr.png)
+Consultez la [feuille de route du MEFR](https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f) et des [autres ministères](https://www.data.gouv.fr/fr/datasets/feuilles-de-route-ministerielles-sur-la-politique-de-la-donnee-des-algorithmes-et-des-codes-sources/)
 
 ---
 ### Le .red[BercyHub] à l'animation de la politique open data du MEFR 
 
-* enrichissement et valorisation des données via la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/)
-* pilotage du réseau des correspondants open data
-* événements d'acculturation
+* publication, enrichissement et valorisation des données via la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/)
+* animation du réseau des correspondants open data pour accompagner les DG métiers dans l’ouverture de leurs données
+* organisation d’évènements d’acculturation : cycle de formation open data, rendez-vous participatifs réunisssant la communauté open data du MEFR comme la Non Conférence édition 2020 et 2021
 * identification de nouvelles données d'intérêt
 
 ---

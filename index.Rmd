@@ -443,7 +443,7 @@ On peut y voir que le MEFR respecte ses engagements.
 ### L'état des lieu de .red[l'ouverture des données du MEFR]
 
 * Le MEFR est le premier ministère à lancer sa feuille de route data avec un déploiement dès 2020.
-* La feuille de route comprend 25 actions planifiées entre 2020 et 2022 qui s’articulent autour de 3 axes ; capital humain, architecture et gouvernance. 
+* La feuille de route comprend 25 actions planifiées entre 2020 et 2022 qui s’articulent autour de 3 axes ; capital humain, architecture et usages 
 
 Consultez la [feuille de route du MEFR](https://www.data.gouv.fr/fr/datasets/r/561b8f8f-9fe1-4d2e-8dbf-c4212b7f7d7f) et des [autres ministères](https://www.data.gouv.fr/fr/datasets/feuilles-de-route-ministerielles-sur-la-politique-de-la-donnee-des-algorithmes-et-des-codes-sources/)
 
@@ -452,10 +452,11 @@ Consultez la [feuille de route du MEFR](https://www.data.gouv.fr/fr/datasets/r/5
 
 * publication, enrichissement et valorisation des données via la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/)
 * animation du réseau des correspondants open data pour accompagner les DG métiers dans l’ouverture de leurs données
-* organisation d’évènements d’acculturation : cycle de formation open data, rendez-vous participatifs réunisssant la communauté open data du MEFR comme la Non Conférence édition 2020 et 2021
+* organisation d’événements d’acculturation : cycle de formation, rdv participatifs avec la communauté (Non Conférence édition 2020 et 2021)
 * identification de nouvelles données d'intérêt
-
-![Les chiffres clés de data.economie.gouv.fr, la plate-forme open data de Bercy](./img/bilan_dataeconomie.png)
+.center[
+<img src="./img/bilan_dataeconomie.png" height="250"/>
+]
 
 ---
 
